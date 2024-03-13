@@ -68,3 +68,35 @@ body{
     transition: text-decoration 1s ease-in-out;
   }
 }
+
+.achieve-header {
+  font-size: 2.25rem;
+  text-decoration: underline;
+  text-align: center;
+}
+.achievement {
+  border: .25rem solid black;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem;
+  width: 55%;
+  margin: 0 auto;
+  .achieve-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .achieve-title {
+      font-size: 1.15rem;
+    }
+  }
+  .achieve-bottom {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+  }
+}
+
+.achievement:first-child {
+  margin-bottom: 1.5rem;
+}
