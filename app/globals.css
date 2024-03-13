@@ -1,33 +1,70 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/rem');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html{
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+body{
+  font-family: 'REM', sans-serif;
+}
+
+.homepage-header {
+  text-align: center;
+}
+
+.about-section {
+  margin: 0 auto;
+  border: .25rem solid black;
+  border-radius: 1rem;
+  width: 65%;
+  .about-header {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .about-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem 0;
+
+    .my-picture{
+      border-radius: 100%;
+      border: .25rem solid black;
+    }
+
+    .about-me {
+      width: 50%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.connection-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .connection-image {
+    display: block;
+    scale: 75%;
+  }
+  .connection-image:hover {
+    cursor: pointer;
+  }
+  p {
+    font-size: 2rem;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.navbar {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+  
+  .navbar-link { 
+    color: black;
+    transition: text-decoration 1s ease-in-out;
   }
 }
