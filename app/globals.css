@@ -155,3 +155,23 @@ body{
       box-shadow: 0 0 1rem;
     }
 }
+
+.faq-header {
+  text-align: center;
+  font-size: 2.25rem;
+  text-decoration: underline;
+}
+
+.faq-section {
+  width: 75%;
+  margin: 0 auto;
+
+  .question{
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 1.15rem;
+  }
+}
