@@ -8,7 +8,7 @@ export default function FAQ() {
                         What are you looking for in your next role?
                     </p>
                     <p className="my-answer">
-                        In my next role, I'm looking forward to joining a project or company
+                        In my next role, I&apos;m looking forward to joining a project or company
                         where I can leverage my developer skills while also enhancing my
                         programming abilities. I thrive in environments where I can explore
                         new ideas and share my new findings with my peers for feedback. So,
@@ -38,20 +38,20 @@ export default function FAQ() {
                         Where have you been involved in the tech community (events attended, volunteer activities, etc.)?
                     </p>
                     <p className="my-answer">
-                        I'd like to start competing in Google's Code Jam or any competitive
+                        I&apos;d like to start competing in Google&apos;s Code Jam or any competitive
                         programming competition, and to start looking for Hackathon groups to join.
                     </p>
                 </div>
                 <div className="question-section">
                     <p className="question">
                         What has been the most fulfilling aspect of your journey towards becoming a web developer?
-                        What's been your biggest challenge and how have you overcome it?
+                        What&apos;s been your biggest challenge and how have you overcome it?
                     </p>
                     <p className="my-answer">
                         The most fulfilling aspect of becoming a web developer is the feeling of
                         being able to show off a potential solution to a problem to your peers.
                         Whether it is the right way or not, developing web applications gives me
-                        a "hey, I think I got it!" feeling. Another aspect of web development that
+                        a &quot;hey, I think I got it!&quot; feeling. Another aspect of web development that
                         I enjoy is its prioritization of other developers to collaborate, and having
                         another person to bounce ideas off is invaluable in my opinion. My biggest
                         challenge has been staying on track when adding a feature to a project. In
@@ -68,14 +68,14 @@ export default function FAQ() {
                         If you had an unlimited budget and resources, what would you build?
                     </p>
                     <p className="my-answer">
-                        Simple, a Steve Erwin reserve. I’d build a place where any and all
+                        Simple, a Steve Erwin reserve. I&apos;d build a place where any and all
                         animals can find refuge and anyone can stop by and see them! Not only
                         will this reserve put a spotlight on how important every animal is to
                         the ecosystem, but it will also give people the escape from the 9-5.
                         Imagine! Had a bad day? Go see the elephants! Who can be angry at
                         elephants?! Want to go pet some animals? We have ALL of them! Take a
                         bucket of feed and have a blast! A place like this will help give people
-                        the opportunity to learn each animal's role in its ecosystem, but also
+                        the opportunity to learn each animal&apos;s role in its ecosystem, but also
                         gives these animals the pampering they deserve. Even the creepy crawling ones!
                     </p>
                 </div>
