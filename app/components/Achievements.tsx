@@ -1,6 +1,6 @@
 export default function Achievements() {
     return (
-        <div className="achieve-section">
+        <div className="achieve-section" id="achievements">
             <h2 className="achieve-header">Achievements:</h2>
             <div className="achieves">
                 <div className="achievement">

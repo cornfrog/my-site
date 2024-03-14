@@ -2,7 +2,7 @@ export default function FAQ() {
     return (
         <>
             <h2 className="faq-header">About Me:</h2>
-            <div className="faq-section">
+            <div className="faq-section" id="about-questions">
                 <div className="question-section">
                     <p className="question">
                         What are you looking for in your next role?

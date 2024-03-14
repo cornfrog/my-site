@@ -6,7 +6,7 @@ import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
-    <div className="homepage">
+    <div className="homepage" id="top-of-page">
       <h1 className="homepage-header">Welcome!</h1>
       <div className="about-section">
         <div className="about-content">
@@ -21,8 +21,8 @@ export default function Home() {
       </div>
       <Connect />
       <NavBar />
-      <Achievements />
       <Projects />
+      <Achievements />
       <FAQ />
     </div>
   );
