@@ -1,13 +1,13 @@
 export default function FAQ() {
     return (
         <>
-            <h2 className="faq-header">About Me:</h2>
-            <div className="faq-section" id="about-questions">
-                <div className="question-section">
-                    <p className="question">
+            <h2>About Me:</h2>
+            <div id="about-questions">
+                <div>
+                    <p>
                         What are you looking for in your next role?
                     </p>
-                    <p className="my-answer">
+                    <p>
                         In my next role, I&apos;m looking forward to joining a project or company
                         where I can leverage my developer skills while also enhancing my
                         programming abilities. I thrive in environments where I can explore
@@ -16,12 +16,12 @@ export default function FAQ() {
                         as much as I do is very important to me.
                     </p>
                 </div>
-                <div className="question-section">
-                    <p className="question">
+                <div>
+                    <p>
                         Why did you decide to change career and/or educational paths?
                         What was your prior path and how did you end up down that road initially?
                     </p>
-                    <p className="my-answer">
+                    <p>
                         My path prior to this was working in the IT field because helping others
                         solve problems is easily one of my favorite things. However, I ended up
                         noticing that on the job I was primarily being asked to make scripts in
@@ -33,21 +33,21 @@ export default function FAQ() {
                         I have been hooked!
                     </p>
                 </div>
-                <div className="question-section">
-                    <p className="question">
+                <div>
+                    <p>
                         Where have you been involved in the tech community (events attended, volunteer activities, etc.)?
                     </p>
-                    <p className="my-answer">
+                    <p>
                         I&apos;d like to start competing in Google&apos;s Code Jam or any competitive
                         programming competition, and to start looking for Hackathon groups to join.
                     </p>
                 </div>
-                <div className="question-section">
-                    <p className="question">
+                <div>
+                    <p>
                         What has been the most fulfilling aspect of your journey towards becoming a web developer?
                         What&apos;s been your biggest challenge and how have you overcome it?
                     </p>
-                    <p className="my-answer">
+                    <p>
                         The most fulfilling aspect of becoming a web developer is the feeling of
                         being able to show off a potential solution to a problem to your peers.
                         Whether it is the right way or not, developing web applications gives me
@@ -63,11 +63,11 @@ export default function FAQ() {
                         which helps me make actual progress on the project I am working on.
                     </p>
                 </div>
-                <div className="question-section">
-                    <p className="question">
+                <div>
+                    <p>
                         If you had an unlimited budget and resources, what would you build?
                     </p>
-                    <p className="my-answer">
+                    <p>
                         Simple, a Steve Erwin reserve. I&apos;d build a place where any and all
                         animals can find refuge and anyone can stop by and see them! Not only
                         will this reserve put a spotlight on how important every animal is to

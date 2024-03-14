@@ -1,14 +1,14 @@
 export default function Achievements() {
     return (
-        <div className="achieve-section" id="achievements">
-            <h2 className="achieve-header">Achievements:</h2>
-            <div className="achieves">
-                <div className="achievement">
-                    <div className="achieve-top">
-                        <p className="achieve-title">Launch Academy</p>
-                        <p className="achieve-time">2023-2024</p>
+        <div id="achievements">
+            <h2>Achievements:</h2>
+            <div>
+                <div>
+                    <div>
+                        <p>Launch Academy</p>
+                        <p>2023-2024</p>
                     </div>
-                    <div className="achieve-bottom">
+                    <div>
                         <p>
                             At Launch, I utilized frameworks like React and Express to
                             integrate into self-made web applications, implemented Test
@@ -18,12 +18,12 @@ export default function Achievements() {
                         </p>
                     </div>
                 </div>
-                <div className="achievement">
-                    <div className="achieve-top">
-                        <p className="achieve-title">Wentworth Institute of Technology</p>
-                        <p className="achieve-time">2016-2020</p>
+                <div>
+                    <div>
+                        <p>Wentworth Institute of Technology</p>
+                        <p>2016-2020</p>
                     </div>
-                    <div className="achieve-bottom">
+                    <div>
                         <p>
                             At Wentworth, I jumped straight into the world of software development,
                             getting my hands dirty with real projects. I tinkered with languages 

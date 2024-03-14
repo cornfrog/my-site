@@ -11,7 +11,7 @@ export default function Connect() {
     }
 
     return (
-        <div className="connection-links">
+        <div>
             <p>Connect with me here 👉</p>
             <img src="linkedin-svgrepo-com.svg" alt="linkedin-connect-link" className="connection-image" onClick={goToLinkedIn}/>
             <img src="github-svgrepo-com.svg" alt="github-connect-link" className="connection-image" onClick={goToGitHub}/>
