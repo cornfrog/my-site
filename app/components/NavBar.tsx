@@ -1,10 +1,9 @@
 export default function NavBar() {
     return (
         <div className="navbar">
-            <a href="#" className="navbar-link">Top</a>
-            <a href="#" className="navbar-link">Achievements</a>
-            <a href="#" className="navbar-link">Projects</a>
-            <a href="#" className="navbar-link">About Me</a>
+            <a href="#projects" className="navbar-link">Projects</a>
+            <a href="#achievements" className="navbar-link">Achievements</a>
+            <a href="#about-questions" className="navbar-link">About Me</a>
         </div>
     );
 }

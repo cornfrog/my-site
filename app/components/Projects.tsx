@@ -1,7 +1,7 @@
 export default function Projects() {
     return (
         <>
-            <h2 className="projects-header">Projects:</h2>
+            <h2 className="projects-header" id="projects">Projects:</h2>
             <div className="projects-section">
                 <div className="project">
                     <p className="project-title">Token Tracker</p>
