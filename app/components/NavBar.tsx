@@ -4,7 +4,7 @@ export default function NavBar() {
             <a href="#" className="navbar-link">Top</a>
             <a href="#" className="navbar-link">Achievements</a>
             <a href="#" className="navbar-link">Projects</a>
-            <a href="#" className="navbar-link">FAQ</a>
+            <a href="#" className="navbar-link">About Me</a>
         </div>
     );
 }
