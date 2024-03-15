@@ -1,10 +1,5 @@
 import Contributors from "./Contributors";
-
-interface Contributor {
-    link: string;
-    name: string;
-}
-
+import { Contributor } from "../globals";
 interface Props {
     project: {
         title: string;

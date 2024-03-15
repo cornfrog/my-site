@@ -1,18 +1,4 @@
-interface Contributor {
-    link: string;
-    name: string;
-}
-
-interface Project {
-    title: string;
-    links: {
-        repoLink: string;
-        demoLink?: string;
-    }
-    details: string;
-    contributors?: Contributor[];
-}
-
+import { Contributor, Project } from "../globals";
 const projects: Project[] = [
     {
         title: `Token Tracker`,

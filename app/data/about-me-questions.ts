@@ -1,7 +1,4 @@
-interface Question {
-    question: string;
-    answer: string;
-}
+import { Question } from "../globals";
 
 const aboutMeQuestions: Question[] = [
     {

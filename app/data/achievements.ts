@@ -1,8 +1,4 @@
-interface Achievement {
-    location: string;
-    timeFrame: string;
-    details: string;
-}
+import { Achievement } from "../globals";
 
 const achievements: Achievement[] = [
     {
