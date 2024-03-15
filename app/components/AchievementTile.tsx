@@ -8,10 +8,10 @@ interface Props {
 
 const AchievementTile: React.FC<Props> = ({achievement}: Props): JSX.Element => {
     return (
-        <div>
-            <p>{achievement.location}</p>
-            <p>{achievement.timeFrame}</p>
-            <p>{achievement.details}</p>
+        <div className="achievement">
+            <p className="achievement-location">{achievement.location}</p>
+            <p className="achievement-timeframe">{achievement.timeFrame}</p>
+            <p className="achievement-details">{achievement.details}</p>
         </div>
     );
 } 

@@ -7,9 +7,11 @@ export default function Achievements() {
     })
 
     return (
-        <div id="achievements">
-            <h2>Achievements:</h2>
-            {achievementTiles}
-        </div>
+        <>
+            <h2 className="section-header" id="achievements">Achievements:</h2>
+            <div className="achievements-section">
+                {achievementTiles}
+            </div>
+        </>
     );
 }

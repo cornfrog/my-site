@@ -5,11 +5,11 @@ interface Props {
 
 const Contributors: React.FC<Props> = ({ contributors }: Props): JSX.Element => {
     const contributorList: JSX.Element[] = contributors.map((contributor, index) => {
-        return <a href={contributor.link} key={index}>{contributor.name}</a>
+        return <a href={contributor.link} key={index} className="project-contributors-link">{contributor.name}</a>
     })
     return (
-        <div>
-            <p>Contributors:</p>
+        <div className="contributors">
+            <p className="project-contributors-title">Contributors:</p>
             {contributorList}
         </div>
     );

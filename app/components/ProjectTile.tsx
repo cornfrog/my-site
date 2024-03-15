@@ -14,18 +14,18 @@ interface Props {
 
 const ProjectTile: React.FC<Props> = ({ project }: Props) => {
 
-    const demoLink: JSX.Element = <a href={project.links.demoLink}>Demo Link</a>;
+    const demoLink: JSX.Element = <a href={project.links.demoLink} className="project-link">Demo Link</a>;
 
     const contributorsList: JSX.Element = <Contributors contributors={project.contributors!} />;
 
     return (
-        <div>
-            <p>{project.title}</p>
-            <div>
-                <a href={project.links.repoLink}>Repo Link</a>
+        <div className="project">
+            <p className="project-title">{project.title}</p>
+            <div className="project-links">
+                <a href={project.links.repoLink} className="project-link">Repo Link</a>
                 {project.links.demoLink === undefined ? '' : demoLink}
             </div>
-            <p>{project.details}</p>
+            <p className="project-details">{project.details}</p>
             {project.contributors === undefined ? '' : contributorsList}
         </div>
     );

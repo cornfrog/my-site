@@ -8,8 +8,8 @@ export default function FAQ() {
 
     return (
         <>
-            <div id="about-questions">
-                <h2>About Me:</h2>
+            <h2 className="section-header" id="about-questions">About Me:</h2>
+            <div className="about-section">
                 {questionsTiles}
             </div>
         </>

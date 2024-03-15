@@ -7,10 +7,10 @@ import FAQ from "./components/FAQ";
 export default function Home() {
   return (
     <div id="top-of-page">
-      <h1 className="text-center text-4xl">Welcome!</h1>
-        <div className="">
-          <img src="linkedin-pic.jpg" alt="linkedin-pic"/>
-          <p className="">
+      <h1 className="welcome-banner">Welcome!</h1>
+        <div className="intro-banner">
+          <img src="linkedin-pic.jpg" alt="linkedin-pic" className="profile-img"/>
+          <p className="intro">
             My name is Corey Pierce and I am an aspiring software developer. To put it short
             I am an overall tech nerd! My main interests are Web Development, Data
             Analysis, Web3, and Cyber Security.This site is to showcase my past and current 
