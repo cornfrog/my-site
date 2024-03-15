@@ -13,7 +13,7 @@ export default function Home() {
           <p className="intro">
             My name is Corey Pierce and I am an aspiring software developer. To put it short
             I am an overall tech nerd! My main interests are Web Development, Data
-            Analysis, Web3, and Cyber Security.This site is to showcase my past and current 
+            Analysis, Web3, and Cyber Security. This site is to showcase my past and current 
             projects. I hope you enjoy :)
           </p>
         </div>
