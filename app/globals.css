@@ -1,177 +1,269 @@
 @import url('https://fonts.cdnfonts.com/css/rem');
 
 html{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
 }
 
 body{
   font-family: 'REM', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.homepage-header {
+.welcome-banner {
   text-align: center;
+  font-size: 4rem;
+  text-decoration: underline;
 }
 
-.about-section {
+.intro-banner {
   margin: 0 auto;
+  padding: 2rem 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: .25rem solid black;
   border-radius: 1rem;
-  width: 65%;
-  .about-header {
-    text-align: center;
-    text-decoration: underline;
-  }
-  .about-content {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 1rem 0;
+}
 
-    .my-picture{
-      border-radius: 100%;
-      border: .25rem solid black;
-    }
+.profile-img {
+  border: .5rem solid black;
+  border-radius: 100%;
+}
 
-    .about-me {
-      width: 50%;
-      font-size: 1.5rem;
-      text-align: center;
-    }
-  }
+.intro {
+  width: 50%;
+  font-size: 1.25rem;
+}
+
+.connection-section {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 1rem;
+}
+
+.connection-title { 
+  font-size: 1.5rem;
 }
 
 .connection-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  .connection-image {
-    display: block;
-    scale: 75%;
-  }
-  .connection-image:hover {
-    cursor: pointer;
-  }
-  p {
-    font-size: 2rem;
-  }
+}
+
+.connection-image:hover {
+  cursor: pointer;
 }
 
 .navbar {
-  margin-top: 5rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.navbar-link {
+  color: black;
+}
+.section-header {
+  text-align: center;
+  text-decoration: underline;
   font-size: 1.5rem;
-  
-  .navbar-link { 
-    color: black;
-    transition: text-decoration 1s ease-in-out;
-  }
-}
-
-.achieve-header {
-  font-size: 2.25rem;
-  text-decoration: underline;
-  text-align: center;
-}
-.achievement {
-  border: .25rem solid black;
-  border-radius: 1rem;
-  box-shadow: 0 0 1rem;
-  width: 55%;
-  margin: 0 auto;
-  .achieve-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .achieve-title {
-      font-size: 1.15rem;
-    }
-  }
-  .achieve-bottom {
-    margin: 0 auto;
-    width: 75%;
-    text-align: center;
-  }
-}
-
-.achievement:first-child {
-  margin-bottom: 1.5rem;
-}
-
-
-.projects-header {
-  font-size: 2.25rem;
-  text-align: center;
-  text-decoration: underline;
 }
 
 .projects-section {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  
-  .project {
-      border: .25rem solid black;
-      border-radius: 1rem;
-      width: 45%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 0;
-      transition: box-shadow .25s ease-in-out;
-
-      .project-links {
-        width: 50%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      a {
-        color: black;
-      }
-
-      .project-title{
-        font-size: 1.5rem;
-      }
-
-      .project-details {
-        padding: 0 1rem;
-        text-align: center;
-      }
-
-      .contributors {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
-    }
-    .project:hover {
-      box-shadow: 0 0 1rem;
-    }
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-.faq-header {
+.project {
+  border: .25rem solid black;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 1rem 1rem .5rem .5rem;
+  height: fit-content;
+  padding: 0 1.25rem;
+}
+
+.project-title {
   text-align: center;
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   text-decoration: underline;
 }
 
-.faq-section {
-  width: 75%;
-  margin: 0 auto;
+.profile-details {
+  text-align: center;
 
-  .question{
-    font-size: 1.25rem;
-    font-weight: bold;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-link {
+  color: black;
+  font-size: 1.15rem;
+}
+
+.project-details {
+  text-align: center;
+}
+
+.project-contributors-title {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: .5rem;
+  font-size: 1.1rem;
+}
+
+.contributors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-contributors-link {
+  color: black;
+  margin-bottom: .25rem;
+}
+
+.achievements-section {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.achievement {
+  border: .25rem solid black;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 1rem 1rem .5rem .5rem;
+  height: fit-content;
+  padding: 0 1.25rem;
+}
+
+.achievement-location {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.achievement-timeframe {
+  text-align: center;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) { 
+  .intro-banner {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .intro {
+    width: unset;
+    text-align: center;
   }
 
-  .answer {
-    font-size: 1.15rem;
+  .connection-section {
+    flex-direction: column;
+  }
+
+  .projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .project {
+    width: 80%;
+  }
+
+  .achievements-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+  .achievement {
+    width: 75%;
+  }
+}
+
+.about-section {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.question {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.answer {
+  margin-top: 0;
+}
+
+
+@media (min-width: 640px) and (max-width: 768px) { 
+  .intro-banner {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .intro {
+    width: unset;
+    text-align: center;
+  }
+  .projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .achievements-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+  .achievement {
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) { 
+  .project {
+    width: 75%;
+  }
+
+  .achievement {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .achievement {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .achievement {
+    width: 75%;
   }
 }
