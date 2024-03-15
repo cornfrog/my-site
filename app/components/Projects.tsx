@@ -4,7 +4,7 @@ import projects from "../data/projects";
 export default function Projects() {
 
     const projectTiles: JSX.Element[] = projects.map((project, index) => {
-        return <ProjectTile project={project} />
+        return <ProjectTile project={project} key={index}/>
     })
 
     return (
