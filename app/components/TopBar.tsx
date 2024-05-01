@@ -67,7 +67,6 @@ function MobileMenu() {
                     <span className="mobile-menu__links-show__link__text">R&#233;sum&#233;</span>
                 </a>
             </div>
-            <div className="mobile-menu__content-spacer"></div>
         </div>
     );
 }
