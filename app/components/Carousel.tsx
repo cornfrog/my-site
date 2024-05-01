@@ -21,7 +21,7 @@ export default function Carousel({ slides }: any) {
             clearTimeout(timeout)
             clearTimeout(transitionTimeout)
         };
-    }, [currentSlide]);
+    }, [currentSlide, slides.length]);
 
     return (
         <div className="carousel">
