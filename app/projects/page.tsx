@@ -45,7 +45,7 @@ export default function Projects() {
                         and retrieve news articles about those currencies. Utilizes websockets
                         to relay real time crypto currency prices from Coinbase API and the got
                         library to retrieve relevant news articles from the NewsAPI while using
-                        a PostgreSQL database to store users' data. Combines both React and custom
+                        a PostgreSQL database to store users&apos; data. Combines both React and custom
                         CSS for the front end user experience.
                     </p>
                     <div className="projects__list__tile__skills-used">
