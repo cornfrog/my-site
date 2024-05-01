@@ -511,6 +511,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow-y: hidden;
 
         &__content {
             width: 80%;
@@ -535,7 +536,7 @@ body {
     }
 
     .carousel {
-        margin-top: 3rem;
+        margin-top: 1.5rem;
 
         .slide {
             height: 200px;
