@@ -477,7 +477,7 @@ body {
         background-color: black;
         width: 100vw;
         position: fixed;
-        z-index: 4;
+        z-index: 1;
 
         .mobile-menu {
             display: block;
@@ -503,31 +503,29 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: absolute;
-                top: 0;
+                top: 20;
                 left: 0;
                 z-index: 2;
                 transition: height .20s ease-in-out;
-                height: 99vh;
-                width: 75vw;
-                background-color: black;
-                border: .25rem solid gray;
+                height: 40vh;
+                width: 100vw;
+                background-color: rgba(0, 0, 0, 0.9);
 
                 &__link {
                     text-decoration: none;
                     color: white;
                     display: flex;
-                    justify-content: center;
                     align-items: center;
-                    margin: 2rem 0;
+                    margin: 1rem 0;
 
                     &__icon {
-                        height: 50px;
-                        width: 50px;
+                        height: 25px;
+                        width: 25px;
                         margin-right: 2rem;
                     }
 
                     &__text {
-                        font-size: 1.25rem;
+                        font-size: 1rem;
                     }
                 }
             }
@@ -540,12 +538,15 @@ body {
                 justify-content: center;
                 align-items: center;
                 position: absolute;
-                top: 0;
+                top: 20;
                 left: 0;
                 z-index: 2;
                 transition: height .20s ease-in-out;
-                width: 75vw;
-                background-color: black;
+                width: 100vw;
+                background-color: rgba(0, 0, 0, 0.9);
+                * {
+                    display: none;
+                }
             }
 
             &__content-spacer {
