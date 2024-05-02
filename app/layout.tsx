@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.scss";
 import TopBar from "./components/TopBar";
 
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body>
         <TopBar/>
         {children}
+        <Analytics />
       </body>
     </html>
   );
