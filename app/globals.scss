@@ -273,6 +273,7 @@ body {
                 padding: 1.5rem;
                 font-size: 1.15rem;
                 margin: 0 auto;
+                color: gray;
                 border-top: 1px solid white;
                 border-bottom: 1px solid white;
             }
@@ -291,20 +292,22 @@ body {
     }
 }
 
-.experiences { 
+.experiences {
     &__header {
         text-align: center;
         font-size: 4rem;
     }
+
     &__list {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 2rem;
+        column-gap: 2rem;
+        width: 90%;
+        margin: 0 auto;
 
         &__tile {
             padding: 1rem;
-            width: 80%;
             margin-bottom: 2rem;
             border: 1px solid white;
             border-radius: 1rem;
@@ -312,6 +315,7 @@ body {
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
+
             &__top {
                 width: 100%;
                 display: flex;
@@ -326,13 +330,44 @@ body {
                     height: 75px;
                     width: 75px;
                 }
-                .wide-image{ 
+
+                .wide-image {
                     width: 175px;
                 }
             }
+
+            &__duration {
+                color: gray;
+            }
+
             &__description {
                 text-align: center;
                 color: gray;
+                padding-bottom: 1rem;
+                border-bottom: 1px solid gray;
+            }
+
+            &__lessons {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                &__lesson {
+                    color: gray;
+                    border: 1px solid gray;
+                    padding: .5rem 1rem;
+                    border-radius: 2rem;
+                    transition: background-color .25s ease-in-out;
+                    user-select: none;
+                }
+
+                &__lesson:hover {
+                    color: black;
+                    background-color: white;
+                    border: 1px solid white;
+                }
             }
         }
     }
@@ -343,6 +378,7 @@ body {
         text-align: center;
         font-size: 4rem;
     }
+
     &__list {
         display: flex;
         flex-direction: column;
@@ -356,7 +392,7 @@ body {
             border-radius: 1rem;
 
             &__info {
-                    display: flex;
+                display: flex;
                 justify-content: flex-start;
                 align-items: center;
                 gap: 2rem;
@@ -374,6 +410,7 @@ body {
                 justify-content: space-around;
                 align-items: center;
                 flex-wrap: wrap;
+
                 &__lesson {
                     color: gray;
                     border: 1px solid gray;
@@ -382,6 +419,7 @@ body {
                     transition: background-color .25s ease-in-out;
                     user-select: none;
                 }
+
                 &__lesson:hover {
                     color: black;
                     background-color: white;
@@ -397,6 +435,7 @@ body {
         font-size: 4rem;
         text-align: center;
     }
+
     &__download-resume {
         margin: 0 auto;
         padding: .5rem 2rem;
@@ -410,6 +449,7 @@ body {
         justify-content: center;
         align-items: center;
         gap: 1rem;
+
         &__img {
             height: 50px;
         }
@@ -595,6 +635,7 @@ body {
                     &__name {
                         white-space: nowrap;
                     }
+
                     &__links {
                         &__link {
                             img {
@@ -611,9 +652,28 @@ body {
         &__header {
             font-size: 2.5rem;
         }
+
         &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
             &__tile {
                 width: 90%;
+
+                &__lessons {
+                    &__lesson {
+                        border: 1px solid gray;
+                        padding: .5rem 1rem;
+                        border-radius: 2rem;
+                        background-color: white;
+                        border: 1px solid white;
+                        color: black;
+                        user-select: none;
+                    }
+                }
+
             }
         }
     }
@@ -622,9 +682,21 @@ body {
         &__header {
             font-size: 2rem;
         }
+
         &__list {
             &__tile {
                 width: 90%;
+                &__lessons {
+                    &__lesson {
+                        border: 1px solid gray;
+                        padding: .5rem 1rem;
+                        border-radius: 2rem;
+                        background-color: white;
+                        border: 1px solid white;
+                        color: black;
+                        user-select: none;
+                    }
+                }
             }
         }
     }
@@ -634,6 +706,7 @@ body {
             font-size: 2rem;
             text-align: center;
         }
+
         &__download-resume {
             margin: 0 auto;
             padding: .5rem 2rem;
@@ -688,10 +761,46 @@ body {
         }
     }
 
+    .experiences {
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            &__tile {
+                &__lessons {
+                    width: 80%;
+
+                    &__lesson {
+                        border: 1px solid gray;
+                        padding: .5rem 1rem;
+                        border-radius: 2rem;
+                        background-color: white;
+                        border: 1px solid white;
+                        color: black;
+                        user-select: none;
+                    }
+                }
+            }
+        }
+    }
+
     .education {
         &__list {
             &__tile {
                 width: 75%;
+                &__lessons {
+                    &__lesson {
+                        border: 1px solid gray;
+                        padding: .5rem 1rem;
+                        border-radius: 2rem;
+                        background-color: white;
+                        border: 1px solid white;
+                        color: black;
+                        user-select: none;
+                    }
+                }
             }
         }
     }
