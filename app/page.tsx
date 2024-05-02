@@ -16,6 +16,7 @@ export default function Home() {
         <div className="homepage__content__connect">
           <a href="https://github.com/cornfrog"><img src="homepage-connect-images/github.svg" alt="github-connect-image" className="homepage__content__connect__image" /></a>
           <a href="https://www.linkedin.com/in/coreypierce-/"><img src="homepage-connect-images/linkedin.svg" alt="github-connect-image" className="homepage__content__connect__image" /></a>
+          <a href="mailto:coreyjamespierce@gmail.com" target="_blank"><img src="homepage-connect-images/email.svg" alt="email-connect-image" className="homepage__content__connect__image" /></a>
         </div>
       </div>
       <Carousel slides={carouselImages}/>
