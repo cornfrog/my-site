@@ -811,4 +811,10 @@ body {
             }
         }
     }
+
+    .resume {
+        &__embedded-resume {
+            max-width: 90vw;
+        }
+    }
 }
