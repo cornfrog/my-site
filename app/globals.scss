@@ -722,11 +722,7 @@ body {
         }
 
         &__download-resume {
-            padding: .5rem 1rem;
-            font-size: 1rem;
-            &__img {
-                height: 25px;
-            }
+            display: none;
         }
         &__embedded-resume {
             max-width: 90vw;
@@ -813,6 +809,12 @@ body {
                     }
                 }
             }
+        }
+    }
+
+    .resume {
+        &__embedded-resume {
+            max-width: 90vw;
         }
     }
 }
